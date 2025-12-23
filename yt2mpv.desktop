@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.1
+Type=Application
+Exec=sh /usr/local/bin/yt2mpv.sh %u
+Name[en_US]=Youtube Player
+Name=Youtube Player
+Comment=Youtube videos in mpv with sponsorblock and subtitles
+Categories=Application;Network;
+MimeType=x-scheme-handler/yt;
