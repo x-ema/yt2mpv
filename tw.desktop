@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.1
+Type=Application
+Exec=sh /usr/local/bin/twitch.sh %u
+Name[en_US]=Twitch Player
+Name=Twitch Player
+Comment=Twitch streams via streamlink viewed in MPV
+Categories=Application;Network;
+MimeType=x-scheme-handler/tw;
