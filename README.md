@@ -19,7 +19,8 @@ Youtube Redirect:
 Include pattern:https://*youtube.com/watch?*v=* 
 Redirect to:yt://www.youtube.com/watch?$2v=$3 
 Pattern type: Wildcard
-Applies to:Main window (address bar) 
+Applies to:Main window (address bar)
+           HistoryState
 ```
 
 Twitch Redirect:
@@ -27,5 +28,7 @@ Twitch Redirect:
 Include pattern:https://*twitch.tv/*
 Redirect to:tw://www.twitch.tv/$2
 Pattern type: Wildcard
+Exclude pattern:https://www.twitch.tv/directory*
 Applies to:Main window (address bar)
+           HistoryState
 ```
