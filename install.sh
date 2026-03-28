@@ -10,10 +10,12 @@ git clone https://github.com/christoph-heinrich/mpv-quality-menu
 cp mpv-quality-menu/quality-menu.lua $HOME/.config/mpv/scripts/
 cp mpv-quality-menu/quality-menu.conf $HOME/.config/mpv/script-opts/
 
+###2bc4 streamlink-ttvlol
+INSTALL_DIR="${XDG_DATA_HOME:-${HOME}/.local/share}/streamlink/plugins"; mkdir -p "$INSTALL_DIR"; curl -L -o "$INSTALL_DIR"/twitch.py 'https://github.com/2bc4/streamlink-ttvlol/releases/latest/download/twitch.py'
 
 ###dependencies##
 echo Installing dependencies
-sudo pacman -S yt-dlp yt-dlp-ejs deno python mpv ffmpeg streamlink
+sudo paru -S yt-dlp yt-dlp-ejs deno python mpv ffmpeg streamlink chatterino2-bin
 
 ###copy scripts
 echo Copying scripts to their home
